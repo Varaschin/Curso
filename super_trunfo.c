@@ -23,11 +23,11 @@ int main () {
 // Inserindo dados da Carta 1:
         printf ("CADASTRO DA CARTA 1 \n\n");
 
-        printf("A = Sao Paulo \nB = Rio de Janeiro \n");
+        printf("A = Sao Paulo \nB = Rio de Janeiro \nC = Parana \nD = Santa Catarina \nE = Rio Grande do Sul \nF = Pernambuco \nG = Ceara \nH = Rio Grande do Norte \n\n");
         printf("Digite a Inicial do Estado: ");
         scanf ("%s", &estado);
 
-        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de um nr de 2 digitos, exemplo (A01, B03)\n");
+        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de 2 digitos, exemplo (A01, B03)\n");
         printf("Digite o Codigo da Carta: ");
         scanf("%s", &codigo_carta);
 
@@ -51,7 +51,6 @@ int main () {
 // Inserindo dados da Carta 2:
         printf ("CADASTRO DA CARTA 2 \n\n");
 
-        printf("A = Sao Paulo \nB = Rio de Janeiro \n");
         printf("Digite a Inicial do Estado: ");
         scanf ("%s", &estado2);
 
