@@ -1,4 +1,7 @@
-// Desafio Novato Super Trunfo
+// Curso Análise e Desenvolvimento de Sistemas
+// Aluno: Rafael Varaschin
+// Matrícula: 202501605966 - Polo Centro Curitiba/Pr.
+// Tema 1 - Super Trunfo em c: Fundamentos e Técnicas Avançadas
 
 #include <stdio.h>
 
@@ -80,8 +83,8 @@ int main () {
         printf("Codigo da Carta: %s\n", codigo_carta);
         printf("Nome da Cidade: %s\n", cidade);
         printf("Populacao: %i\n", populacao);
-        printf("Area em Km2: %.2f\n", area);
-        printf("PIB em Bilhoes: %.2f\n", pib);
+        printf("Area %.2f", area); printf (" km2\n");
+        printf("PIB: %.2f", pib); printf (" Bilhoes de Reais\n");
         printf("Nr de Pontos Turisticos: %i\n", pontos_turisticos);
 
         printf("--------------------\n");
@@ -93,8 +96,8 @@ int main () {
         printf("Codigo da Carta: %s\n", codigo_carta2);
         printf("Nome da Cidade: %s\n", cidade2);
         printf("Populacao: %i\n", populacao2);
-        printf("Area em Km2: %.2f\n", area2);
-        printf("PIB em Bilhoes: %.2f\n", pib2);
+        printf("Area: %.2f", area2);  printf (" km2\n");
+        printf("PIB: %.2f", pib2); printf (" Bilhoes de Reais\n");
         printf("Nr de Pontos Turisticos: %i\n", pontos_turisticos2);
 
         printf("--------------------\n");
