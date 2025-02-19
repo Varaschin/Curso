@@ -52,7 +52,7 @@ int main () {
         printf("Digite a Inicial do Estado: ");
         scanf ("%s", &estado2);
 
-        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de um nr de 2 digitos, exemplo (A01, B03)\n");
+        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de 2 digitos, exemplo (A01, B03)\n");
         printf("Digite o Codigo da Carta: ");
         scanf("%s", &codigo_carta2);
 
@@ -97,6 +97,9 @@ int main () {
         printf("PIB em Bilhoes: %.2f\n", pib2);
         printf("Nr de Pontos Turisticos: %i\n", pontos_turisticos2);
 
+        printf("--------------------\n");
+
+        
         return 0;
 
 }
