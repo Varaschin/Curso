@@ -1,24 +1,21 @@
-// Curso Análise e Desenvolvimento de Sistemas
+// Curso: Análise e Desenvolvimento de Sistemas
 // Aluno: Rafael Varaschin
 // Matrícula: 202501605966 - Polo Centro Curitiba/Pr.
-// Tema 1 - Super Trunfo em c: Fundamentos e Técnicas Avançadas
+// Tema 1: Super Trunfo em c: Fundamentos e Técnicas Avançadas
 
 #include <stdio.h>
 
 int main () {
 
 //Declaração das variáveis da Carta 1
-
         char estado [1], codigo_carta [4], cidade [50];
         int populacao, pontos_turisticos;
         float area, pib;
 
 // Declaração das variáveis da Carta 2
-
         char estado2 [1], codigo_carta2 [4], cidade2 [50];
         int populacao2, pontos_turisticos2;
         float area2, pib2;
-
 
 // Inserindo dados da Carta 1:
         printf ("CADASTRO DA CARTA 1 \n\n");
@@ -54,7 +51,7 @@ int main () {
         printf("Digite a Inicial do Estado: ");
         scanf ("%s", &estado2);
 
-        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de um nr de 2 digitos, exemplo (A01, B03)\n");
+        printf("Codigo da Carta.\nDevera ser a inicial do Estado, seguida de 2 digitos, exemplo (A01, B03)\n");
         printf("Digite o Codigo da Carta: ");
         scanf("%s", &codigo_carta2);
 
@@ -76,7 +73,6 @@ int main () {
         printf("--------------------\n");
 
 // Imprimindo dados da Carta 1:
-
         printf("CARTA 1:\n");
         printf("Estado: %s\n", estado);
         printf("Codigo da Carta: %s\n", codigo_carta);
@@ -89,7 +85,6 @@ int main () {
         printf("--------------------\n");
 
 // Imprimindo dados da Carta 2:
-
         printf("CARTA 2:\n");
         printf("Estado: %s\n", estado2);
         printf("Codigo da Carta: %s\n", codigo_carta2);
@@ -102,5 +97,4 @@ int main () {
         printf("--------------------\n");
 
         return 0;
-
 }
