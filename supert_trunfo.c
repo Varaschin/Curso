@@ -1,7 +1,7 @@
-// Curso Análise e Desenvolvimento de Sistemas
+// Curso: Análise e Desenvolvimento de Sistemas
 // Aluno: Rafael Varaschin
 // Matrícula: 202501605966 - Polo Centro Curitiba/Pr.
-// Tema 1 - Super Trunfo em c: Fundamentos e Técnicas Avançadas
+// Tema 1: Super Trunfo em c: Fundamentos e Técnicas Avançadas
 
 #include <stdio.h>
 
