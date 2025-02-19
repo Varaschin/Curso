@@ -17,7 +17,6 @@ int main () {
         int populacao2, pontos_turisticos2;
         float area2, pib2;
 
-
 // Inserindo dados da Carta 1:
         printf ("CADASTRO DA CARTA 1 \n\n");
 
